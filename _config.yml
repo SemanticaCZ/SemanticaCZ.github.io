@@ -1,0 +1,23 @@
+# Site settings
+title: Semantica.cz
+
+description: Webová prezentace Semantica.cz - Konzultace v oblasti propojených dat (Linked Data), sémantického webu a knowledge grafů.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://semantica.cz" # the base hostname & protocol for your site
+
+# Build settings
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+langs:
+  en:
+    cs: česky
+    flag: /images/flag-en.png
+  cs:
+    en: English
+    flag: /images/flag-cs.png

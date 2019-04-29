@@ -1,0 +1,56 @@
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+  transition: .6s opacity ease;
+}
+/* Disable transitions for if reduced motion is enabled: */
+@media (prefers-reduced-motion:reduce) {
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-right {
+    transition: none;
+  }
+} 
+
+.navbar-toggler-icon, .navbar-light .navbar-nav .nav-link, a {
+    color: #057fb7;
+}
+
+a.btn.btn-primary, button.btn.btn-primary {
+    background-color: #057fb7;
+    border-color: white;
+	color: white;
+}
+
+a.btn.btn-primary:hover, button.btn.btn-primary:hover {
+    background-color: white;
+    border-color: white;
+    color: #057fb7;
+}
+
+.btn-secondary {
+    background-color: white;
+    border-color: #057fb7;
+	color: #057fb7;
+}
+
+.btn-secondary:hover {
+    background-color: #057fb7;
+    border-color: white;
+	color: white;
+}
+
+.jumbotron {
+    background-color: #057fb7;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+
+    .jumbotron .container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
